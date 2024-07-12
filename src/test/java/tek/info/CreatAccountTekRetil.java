@@ -27,7 +27,7 @@ public class CreatAccountTekRetil {
 
             By inputEmailLocator = By.id("emailInput");
             WebElement inputEmailElement = driver.findElement(inputEmailLocator);
-            inputEmailElement.sendKeys("Ayesha.Rasa@tekschool.us");
+            inputEmailElement.sendKeys("ayesha.rasa@gmail.com");
 
             By inputPasswordLocator = By.id("passwordInput");
             WebElement inputPasswordElement = driver.findElement(inputPasswordLocator);
